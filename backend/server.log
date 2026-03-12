@@ -1,0 +1,22 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /leagues                  --> main.getLeagues (4 handlers)
+[GIN-debug] POST   /leagues                  --> main.createLeague (4 handlers)
+[GIN-debug] GET    /teams                    --> main.getTeams (4 handlers)
+[GIN-debug] GET    /league/:id               --> main.getLeague (4 handlers)
+[GIN-debug] GET    /matchups/:league_id      --> main.getMatchups (4 handlers)
+[GIN-debug] POST   /admin/spread             --> main.postAdminSpread (4 handlers)
+[GIN-debug] POST   /admin/score              --> main.postAdminScore (4 handlers)
+[GIN-debug] GET    /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /assets/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /favicon.ico              --> main.main.(*RouterGroup).StaticFile.func2 (4 handlers)
+[GIN-debug] HEAD   /favicon.ico              --> main.main.(*RouterGroup).StaticFile.func2 (4 handlers)
+2026/03/11 21:50:49 Serving frontend from ../frontend/dist
+2026/03/11 21:50:49 Server starting on :8080
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
